@@ -1,0 +1,296 @@
+#site-wrapper {
+	width: 800px;
+	min-height: 600px;
+	border: 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header-wrapper {
+	width: 800px;
+	color: white;
+}
+
+.topBorder {
+	width: 800px;
+	background: url('images/topborder.jpg');
+	height: 32px;
+}
+
+.headerBanner {
+	width: 800px;
+	background: url('images/banner.jpg');
+	height: 175px;
+}
+
+.headerLink {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10pt;
+	padding-right: 10px;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.headerLink a {
+	text-decoration: none;
+	color: white;
+}
+
+.headerLink a:hover {
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+#body-wrapper {
+	width: 800px;
+	min-height: 350px;
+}
+
+#category {
+	width: 156px;
+	float: left
+}
+
+.categoryTopBorder {
+	height: 41px;
+	background: url('images/categoryheader.jpg');
+}
+
+.categoryStyle {
+	font-size: 12pt;
+	font-family: verdana;
+	color: white;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.categoryBackground {
+	width: 156px;
+	min-height: 309px;
+	background: url('images/categorybackground.jpg');
+	font-family: verdana;
+	font-size: 10pt;
+}
+
+.categoryBackground ul {
+	margin: 0;
+	padding-left: 15px;
+	padding-top: 10px;
+	list-style: none;
+}
+
+.categoryBackground li {
+	background: url('images/triangle-inactive.jpg');
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+
+.categoryBackground a {
+	text-decoration: none;
+	color: black;
+}
+
+.categoryBackground li:hover {
+	background: url('images/triangle-active.jpg');
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+#content {
+	width: 770px;
+	float: left
+}
+
+#contentHeader {
+	width: 750px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 11pt;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+#contentBody {
+	width: 750px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.contentTableHeading {
+	font-family: verdana;
+	font-size: 9pt;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	background-color: #375da2;
+	height: 30px;
+}
+
+.contentTableHeading td {
+	border: 1px solid white;
+}
+
+.contentTableData {
+	font-family: verdana;
+	font-size: 8pt;
+	color: black;
+	text-align: center;
+	background-color: #ccd6e7;
+	height: 30px;
+}
+
+.contentTableData td {
+	border: 1px solid white;
+}
+
+#login-wrapper {
+	width: 800px;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#loginArea {
+	width: 350px;
+	background-color: #ccd6e7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#loginArea a {
+	text-decoration: none;
+	color: black;
+}
+
+#loginArea a:hover {
+	text-decoration: none;
+	color: crimson;
+}
+
+.loginHeading {
+	background-color: #375da2;
+	color: white;
+	font-size: 13pt;
+	font-family: verdana;
+	text-align: center;
+	height: 30px;
+	font-weight: bold;
+}
+
+.loginText {
+	color: black;
+	font-size: 10pt;
+	font-family: verdana;
+}
+
+#module-wrapper {
+	width: 800px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#registerArea {
+	width: 550px;
+	background-color: #ccd6e7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#registerArea a {
+	text-decoration: none;
+	color: black;
+}
+
+#registerArea a:hover {
+	text-decoration: none;
+	color: crimson;
+}
+
+.moduleHeading {
+	background-color: #375da2;
+	color: white;
+	font-size: 13pt;
+	font-family: verdana;
+	text-align: left;
+	height: 30px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.moduleText {
+	color: black;
+	font-size: 10pt;
+	font-family: verdana;
+}
+
+#addDocumentArea {
+	width: 580px;
+	background-color: #ccd6e7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#editDocumentArea {
+	width: 580px;
+	background-color: #ccd6e7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#paymentArea {
+	width: 520px;
+	background-color: #ccd6e7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#searchDocumentArea {
+	width: 420px;
+	background-color: #ccd6e7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer-wrapper {
+	clear: left;
+	width: 800px;
+}
+
+.thanksText {
+	color: maroon;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+.bottomBorder {
+	background: url('images/bottomborder.jpg');
+	height: 39px;
+}
+
+.copyright {
+	color: black;
+	font-family: verdana;
+	font-size: 8pt;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.noBorder {
+	border: none;
+	text-decoration: none;
+}
+
+/*.sortable th {
+	background-color: #E4EDFC;
+	background-position: 95% 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 6px 15px 6px 6px;
+}*/
